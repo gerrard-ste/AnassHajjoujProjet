@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgr"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:text="Card FIFA Players  "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        />
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:rowCount="10"
+       android:columnCount="2"
+       android:layout_margin="5dp"
+       android:alignmentMode="alignMargins"
+       android:layout_gravity="center"
+       android:columnOrderPreserved="false" >
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/messi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leo"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/color4"
+                android:layout_marginBottom="8dp"
+                />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+               <ImageView
+                   android:layout_width="130dp"
+                   android:layout_height="130dp"
+                   android:src="@drawable/verrati"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Leo"
+                   android:textSize="15dp"
+                   android:fontFamily="sans-serif-light"
+                   android:textColor="@color/color4"
+                   android:layout_marginBottom="8dp"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+               <ImageView
+                   android:layout_width="130dp"
+                   android:layout_height="130dp"
+                   android:src="@drawable/kros"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Leo"
+                   android:textSize="15dp"
+                   android:fontFamily="sans-serif-light"
+                   android:textColor="@color/color4"
+                   android:layout_marginBottom="8dp"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+               <ImageView
+                   android:layout_width="130dp"
+                   android:layout_height="130dp"
+                   android:src="@drawable/terstegen"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Leo"
+                   android:textSize="15dp"
+                   android:fontFamily="sans-serif-light"
+                   android:textColor="@color/color4"
+                   android:layout_marginBottom="8dp"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+               <ImageView
+                   android:layout_width="130dp"
+                   android:layout_height="130dp"
+                   android:src="@drawable/neymar"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Leo"
+                   android:textSize="15dp"
+                   android:fontFamily="sans-serif-light"
+                   android:textColor="@color/color4"
+                   android:layout_marginBottom="8dp"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="150dp"
+           android:layout_height="169dp"
+           app:cardBackgroundColor="@color/color3"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="5dp"
+           android:layout_margin="30dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center" >
+               <ImageView
+                   android:layout_width="130dp"
+                   android:layout_height="130dp"
+                   android:src="@drawable/luca"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Leo"
+                   android:textSize="15dp"
+                   android:fontFamily="sans-serif-light"
+                   android:textColor="@color/color4"
+                   android:layout_marginBottom="8dp"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+
+
+   </GridLayout>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
